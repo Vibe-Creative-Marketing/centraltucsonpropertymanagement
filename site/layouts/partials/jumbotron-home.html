@@ -1,0 +1,31 @@
+<header class="vh-100 vh-75-l relative" role="banner">
+
+  <picture>
+    <source srcset="{{ .imagetiny }} 450w," media="(max-width: 450px)" type="image/jpeg">
+    <source srcset="{{ .webpS }} 700w, {{ .webpM }} 1000w, {{ .webpL }} 2000w" type="image/webp">
+    <source srcset="{{ .imageS }} 700w, {{ .imageM }} 1000w, {{ .imageL }} 2000w" type="image/jpeg">
+    <img src="{{ .imageL }}" alt="{{ .alt }}" class="fit-cover vh-100 vh-75-l w-100">
+  </picture>
+
+  <section class="top-1 absolute center pa3 ma6-l ma5-t black br2 bg-white-60 ml2 nt3-m w-100-m">
+    <div class="">
+      <h1 class="f2 f1-l fw9 lh-title">
+        {{ .titlelarge | safeHTML }}
+      </h1>
+    </div>
+
+    <div class="f3 f2-l fw5 lh-title pb3">
+      {{ if .subtitle }}
+      <p>
+        {{ .subtitle | safeHTML }}
+      </p>
+      {{ end }}
+    </div>
+
+    <div class="mw5 mw7-ns">
+      <a class="w5 f4 dib link grow tc bg-blue white ba b--blue pa3 b br1 mr4-l mt3 mt0-l" href="tel:(520) 276-9422">(520) 276-9422</a>
+      <a class="w5 f4 dib link grow tc bg-blue white ba b--blue pa3 b br1 mt3 mt0-l" href="/service-cost">Get a Free Quote</a>
+    </div>
+
+  </section>
+</header>

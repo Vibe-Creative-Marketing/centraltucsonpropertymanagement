@@ -1,0 +1,16 @@
+<section class="mb6 center w-90-l">
+		<div class="flex-ns flex-wrap mhn2-ns mb3 justify-around">
+			{{ range .about }}
+				<div class="mb4 bg-green mw6 mh3 pb3">
+					<picture>
+						<source srcset="{{ .webpS }} 500w" type="image/webp">
+						<source srcset="{{ .imageS }} 500w"	type="image/jpeg">
+						<img src="{{ .imageS }}" alt="{{ .alt }}" class="fit-cover center mb3" loading="lazy">	
+					</picture>
+					<h2 class="ma2 f3 ph3">{{ .name }}</h2>
+					<h3 class="ma2 f4 ph3">{{ .position }}</h3>
+					<p class="ma2 f5 f4-ns ph3">{{ .text }}</p>
+				</div>
+			{{ end }}
+		</div>
+</section>

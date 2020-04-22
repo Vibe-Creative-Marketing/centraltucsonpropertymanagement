@@ -1,0 +1,35 @@
+<header class="cf bg-green vh-100 vh-75-l flex-l items-center" role="banner">
+  
+  <picture class="w-100 w-50-l fl nb1-l">
+    <source srcset="{{ .webp1S }} 500w, {{ .webp1M }} 1000w" type="image/webp">
+    <source srcset="{{ .image1S }} 500w, {{ .image1M }} 1000w" type="image/jpeg">
+    <img src="{{ .image1M }}" alt="Services" class="vh-50 vh-75-l w-100 fit-cover">
+  </picture>
+
+  <section class="w-100 w-50-l vh-50 vh-75-l fl flex items-center">
+
+
+    <div class="center pa3 pb5">
+      <h1 class="f3 f1-l fw9 lh-title mt4-m">
+        {{ .title}}
+      </h1>
+
+      {{ if .subtitle }}
+      <p class="f4 f2-l fw5 lh-title pb3 word-break">
+        {{ .subtitle | safeHTML }}
+      </p>
+      {{ end }}
+
+      <div class="mt6-l">
+        <a class="mw5 w5-ns f7 f4-l dib link grow tc bg-blue white ba b--blue pa3 b br1 mr4-l mt3 mt0-ns" href="tel:(520) 276-9422">(520) 276-9422</a>
+        <a class="mw5 w5-ns f7 f4-l dib link grow tc bg-blue white ba b--blue pa3 b br1 mt3 mt2-ns ml3 ml0-l" href="/service-cost">{{ .button }}</a>
+      </div>
+    </div>
+
+   
+  </section>
+
+
+
+  
+</header>

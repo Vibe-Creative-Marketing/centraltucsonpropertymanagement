@@ -1,0 +1,33 @@
+<div class="w-100 bg-blue h2"></div>
+
+<div class="relative cf vh-100 flex-ns items-center mb4">
+
+    <picture>
+        <source srcset="{{ .webp2S }} 500w, {{ .webp2M }} 1000w" type="image/webp">
+        <source srcset="{{ .image2S }} 500w, {{ .image2M }} 1000w" type="image/jpeg">
+        <img src="{{ .image2M }}" alt="{{ .alt2 }}" class="absolute right-0-l top-0 w-100 w-50-l fl vh-50 fit-cover">
+    </picture>
+
+
+    <picture>
+        <source srcset="{{ .webp3S }} 500w, {{ .webp3M }} 1000w" type="image/webp">
+        <source srcset="{{ .image3S }} 500w, {{ .image3M }} 1000w" type="image/jpeg">
+        <img src="{{ .image3M }}" alt="{{ .alt3 }}" class="absolute left-0-l bottom-0 w-100 w-50-l vh-50 fl fit-cover">
+    </picture>
+    
+    <div class="absolute center w-100 mt0-ns mt-50">
+        <div class="pa3 center mw7 bg-green shadow-3-l tc pb4-l">
+        <h2 class="f3 f2-l">
+            {{ .heading }}
+        </h2>
+        <p class="f4 f3-l">
+            {{ .text }}
+        </p>
+        <div class="mt3-l">
+            <a class="mw5 w5-ns f7 f4-l dib link grow tc bg-blue white ba b--blue pa3 b br1 mt3 mt2-ns" href="/service-cost">{{ .button }}</a>
+        </div>
+        </div>
+    </div>
+
+</div>
+

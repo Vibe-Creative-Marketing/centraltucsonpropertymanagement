@@ -1,0 +1,49 @@
+<section class="cf mb4">
+    <div class="w-100 w-50-l fl flex items-center vh-50-l">
+        <h1 class="f2 f1-l b fw9 center ph4 ph0-ns">{{ .infoheading }}</h1>
+        <div class="w1 vh-25 bg-green nr2 dn dib-l"></div>
+    </div>
+
+    <div class="w-100 w-50-l fl pa3 dn-l">
+        <div class="mw5 pt2 bg-green center"></div>
+    </div>   
+
+    <div class="w-100 w-50-l fl flex items-center vh-50-l">
+        <div class="center pa2">
+            <div class="center flex items-center">
+                <picture>
+                    <source srcset="{{ .addresswebp }} 100w" type="image/webp">
+                    <source srcset="{{ .addresspng }} 100w" type="image/png">
+                    <img src="{{ .addresspng }}"  class="w2 w3-ns pa3" loading="lazy"> 
+                </picture>
+                <p class="word-break f4 f3-l lh-copy">{{ .address }}</p>
+            </div>
+            <div class="center flex items-center">
+                <picture>
+                    <source srcset="{{ .phonewebp }} 100w" type="image/webp">
+                    <source srcset="{{ .phonepng }} 100w" type="image/png">
+                    <img src="{{ .phonepng }}"  class="w2 w3-ns pa3" loading="lazy"> 
+                </picture>
+                <p class="word-break f4 f3-l lh-copy">{{ .phone}}</p>
+            </div>
+            <div class="center flex items-center">
+                <picture>
+                    <source srcset="{{ .emailwebp }} 100w" type="image/webp">
+                    <source srcset="{{ .emailpng }} 100w" type="image/png">
+                    <img src="{{ .emailpng }}"  class="w2 w3-ns pa3" loading="lazy"> 
+                </picture>
+                <p class="word-break f4 f3-l lh-copy ">{{ .email }}</p>
+            </div>
+            <div class="center flex items-center">
+                <picture>
+                    <source srcset="{{ .hourswebp }} 100w" type="image/webp">
+                    <source srcset="{{ .hourspng }} 100w" type="image/png">
+                    <img src="{{ .hourspng }}"  class="w2 w3-ns pa3" loading="lazy"> 
+                </picture>
+                <p class="word-break f4 f3-l lh-copy">{{ .hours }}</p>
+            </div>
+        </div>
+    </div>
+
+
+</section>

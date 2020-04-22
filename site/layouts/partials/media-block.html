@@ -1,0 +1,22 @@
+<div class="cf center flex-l items-center mb5">
+
+  <div class="w-100 w-50-l fl">
+    <div class="center mb3 pl3 pr3 ml5-l word-break">
+      <h2 class="f3 b black lh-title">{{.heading}}</h3>
+      <p class="f4 lh-title mw7">{{.text}}</p>
+    </div>
+    <div class="pl3 ml5-l mb3">
+      <a class="mw5 w5-ns f7 f4-l dib link grow tc bg-blue white ba b--blue pa3 b br1 mr4-l mt3 mt0-ns" href="{{ .link1 }}">{{ .button1 }}</a>
+      <a class="mw5 w5-ns f7 f4-l dib link grow tc bg-blue white ba b--blue pa3 b br1 mt3 mt2-ns ml3 ml0-l" href="{{ .link2 }}">{{ .button2 }}</a>
+    </div>
+    <div class="center mt5 mb3 pl3 pr3 ml5-l word-break">
+      <h2 class="f3 b black lh-title">{{.heading2}}</h3>
+        <p class="f4 lh-title pb3 mw7">{{.text2}}</p>
+    </div>
+  </div> 
+  <picture class="w-100 w-50-l fl">
+    <source srcset="{{ .webpS }} 500w, {{ .webpM }} 1000w" type="image/webp">
+    <source srcset="{{ .imageS }} 500w, {{ .imageM }} 1000w" type="image/jpeg"> 
+    <img src="{{ .imageM }}" alt="{{ .alt }}" class="db mb2 center mw6 mw6-t mw7-l fr-l" loading="lazy">
+  </picture>
+</div>

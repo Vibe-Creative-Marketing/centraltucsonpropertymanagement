@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="{{ $.Site.Language.Lang }}">
+  {{ partial "head" . }}
+  <body class="sans-serif">
+
+
+
+<nav class="tc w-100 h-100 fixed">
+    <div class="lh-solid mb2 raise center pt6">
+		<a class="f4 b lh-solid mb2 black no-underline" href="/">ASAP Movers 808</a>
+	</div>
+
+	<!-- Primary Nav -->
+	<ul class="w-100 b pt3 v-mid absolute list">
+
+		<li><a href="/" class="pt3 db no-underline">Home</a></li>
+				
+		<li><a href="/services" class="pt3 db no-underline">Services</a></li>
+
+		<li><a href="/about" class="pt3 db no-underline">About</a></li>
+
+		<li><a href="/contact" class="pt3 db no-underline">Contact</a></li>
+	</ul>
+</nav>
+
+{{ $script := .Site.Data.webpack.main }}
+{{ with $script.js }}
+  <script src="{{ relURL . }}"></script>
+{{ end }}
+</body>
+</html>
+
+
+

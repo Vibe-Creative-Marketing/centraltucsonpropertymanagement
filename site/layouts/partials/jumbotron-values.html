@@ -1,0 +1,17 @@
+<div class="cf mb6">
+    <picture class="vh-50 vh-75-ns w-100 w-50-l fl">
+        <source srcset="{{ .Values.webpS }} 500w, {{ .Values.webpM }} 1000w" type="image/webp">
+        <source srcset="{{ .Values.imageS }} 500w, {{ .Values.imageM }} 1000w" type="image/jpeg">
+        <img src={{ .Values.imageM }} alt="{{ .alt }}" class="fit-cover vh-50 vh-75-ns w-100" loading="lazy">
+    </picture>
+
+    <div class="vh-50 vh-75-ns w-100 w-50-l fl bg-light-gray flex items-center">
+        <div class="center mb3 pl3 pr3 ml5-l">
+            <h2 class="f4 f3-m f2-ns fw9 b lh-title">{{ .Values.title }}</h2>
+            <h3 class="f4 f3-ns b">{{ .Values.subtitle}}</h3>
+            <div class="pt1 mw5 bg-blue"></div>
+            <ul class="f5 f4-m f3-l lh-title">{{ .Values.text | safeHTML }}</ul>
+        </div>   
+    </div>
+
+</div>

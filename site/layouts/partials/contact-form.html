@@ -1,0 +1,52 @@
+<section class="cf flex-l items-center mb4">
+
+
+<!-- Contact -->
+<div class="w-100 w-50-l vh-75-l fl flex-l items-center">
+  <div class="center pa3 mw7">
+  <h2 class="f2 b lh-title black">{{ .heading }}</h4>
+  <p class="f4 lh-copy mb4 pb5 black">{{ .text }}</p> 
+  <form form name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true" class="shadow-3 pa2">
+    <div class="w-100">
+      <h3 class="f3 ma2">{{ .formheading }}</h3>
+      </div>
+    <div class="flex-l mhn1-l">
+      <!-- Name -->
+      <div class="w-50-l">
+        <fieldset class="b--none">
+          <input type="text" id="name" name="name" placeholder="Name" class="ba1 w-100">
+          <label class="dn" for="name">Name</label>
+        </fieldset>
+      </div>
+      <!-- Email -->
+      <div class="w-50-l">
+        <fieldset class="b--none">
+          <input type="email" id="email" name="email" placeholder="Email" class="ba1 w-100">
+          <label class="dn" for="email">Email</label>
+        </fieldset>
+      </div>
+    </div>
+
+    <!-- Message -->
+    <fieldset class="b--none">
+      <textarea id="message" name="message" placeholder="Your message" rows="8" cols="80" class="ba1 w-100"></textarea>
+      <label class="dn" for="message">Your message</label>
+    </fieldset>
+    <!-- Button -->
+    <div class="flex-l mhn2-l">
+      <div class="fl mh3" data-netlify-recaptcha="true"></div>
+      <div class="tc">
+      <button type="submit" class="f5 f4-l dib link grow tc bg-blue white ba b--blue pa3 b br1 mr4-l mt3">Submit</button>
+      </div>
+    </div>
+  </form>
+</div>
+</div>
+
+<picture class="w-100 w-50-l vh-75-lfl">
+  <source srcset="{{ .webpS }} 500w, {{ .webpM }} 1000w" type="image/webp">
+  <source srcset="{{ .imageS }} 500w, {{ .imageM }} 1000w" type="image/jpeg">
+  <img src="{{ .imageM }}" alt="{{ .alt }}" class="vh-75-l w-100 fit-cover" loading="lazy">
+</picture>
+
+</section>

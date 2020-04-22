@@ -1,0 +1,14 @@
+<div class="flex-m mhn3-m mb4">
+
+  <picture class="ph3-m w-50-m order-last-m">
+    <source srcset="{{ .imageS }} 500w, {{ .imageM }} 1000w" type="image/jpeg">
+    <source srcset="{{ .webpS }} 500w, {{ .webpM }} 1000w" type="image/webp"> 
+    <img src="{{ .imageM }}" alt="{{ .alt }}" class="db mb2">
+  </picture>
+
+  <div class="ph3-m w-50-m">
+    <h3 class="f3 b lh-title mb1 black bg-highlight mw6">{{.heading}}</h3>
+    <p>{{.text}}</p>
+  </div>
+
+</div>

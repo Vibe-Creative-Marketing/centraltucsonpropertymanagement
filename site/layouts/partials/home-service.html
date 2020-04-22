@@ -1,0 +1,54 @@
+<main class="center mt3 mb4 cf">
+
+  <div class="center ph5-ns mb4 ph3">
+    <h2 class="f2 b black">{{.intro.heading}}</h2>
+    <p class="f3">{{.intro.text}}</p>
+      <div class="pt1 mw5 mw6-ns bg-green">
+  
+      </div>
+  </div>
+
+  <div class="pt3 ph3 ph5-ns mb3 w-100 w-50-l fl">
+    <picture>
+      <source srcset="{{.service1.webps}}" type="image/webp">
+      <source srcset="{{.service1.images}}" type="image/png">
+      <img src="{{.service1.images}}" alt="" class="br-100 w5 h5">
+    </picture>
+
+    <h3>
+      {{.service1.heading}}
+    </h3>
+
+    <p>
+      {{.service1.text}}
+    </p>
+    <div class="mw5 mw7-ns">
+      <a class="w4 f5 dib link grow tc bg-blue white ba b b--blue pa3 br1 mt3 mt0-ns" href="{{.service1.link}}">{{.service1.button}}</a>
+    </div>
+  </div>
+
+  <div class="pt3 ph2 ph5-ns mb3 w-100 w-50-l fl">
+    <picture>
+      <source srcset="{{.service2.webps}}" type="image/webp">
+      <source srcset="{{.service2.images}}" type="image/png">
+      <img src="{{.images}}" alt="" class="br-100 w5 h5">
+    </picture>
+
+    <h3>
+      {{.service2.heading}}
+    </h3>
+
+    <p>
+      {{.service2.text}}
+    </p>
+    <div class="mw5 mw7-ns">
+      <a class="w4 f5 dib link grow tc bg-blue white ba b b--blue pa3 br1 mt3 mt0-ns" href="{{.service2.link}}">{{.service2.button}}</a>
+    </div>
+
+
+
+  </div>
+
+</main>
+
+<div class="w-100 bg-blue h2 mb2"></div>

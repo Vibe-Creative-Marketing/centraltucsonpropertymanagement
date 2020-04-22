@@ -1,0 +1,21 @@
+<section class="w-90-l mb6 center cf">
+    {{ range .list }}
+    <div class="fl w-100 w-25-ns pa3">
+            
+                <div class="w3 w4-l center">
+					    <picture class="">
+						    <source srcset="{{ .webpS }} 500w" type="image/webp">
+						    <source srcset="{{ .imageS }} 500w"	type="image/png">
+						    <img src="{{ .imageS }}" alt="{{ .alt }}" class="fit-contain" loading="lazy">	
+                        </picture>
+                </div>
+                    <div class="center word-break">
+					    <h2 class="tc f4 f3-l">{{ .title }}</h2>
+                        <p class="f5 f4-l">{{ .text }}</p>
+                    </div>    
+            </div>    
+			{{ end }}
+            
+    </div>
+
+</section>
