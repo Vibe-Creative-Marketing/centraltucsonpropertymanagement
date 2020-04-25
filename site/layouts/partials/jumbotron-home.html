@@ -1,11 +1,8 @@
-<header class="vh-100 vh-75-l relative" role="banner">
+<header class="vh-100 relative" role="banner">
 
-  <picture>
-    <source srcset="{{ .imagetiny }} 450w," media="(max-width: 450px)" type="image/jpeg">
-    <source srcset="{{ .webpS }} 700w, {{ .webpM }} 1000w, {{ .webpL }} 2000w" type="image/webp">
-    <source srcset="{{ .imageS }} 700w, {{ .imageM }} 1000w, {{ .imageL }} 2000w" type="image/jpeg">
-    <img src="{{ .imageL }}" alt="{{ .alt }}" class="fit-cover vh-100 vh-75-l w-100">
-  </picture>
+  <video playsinline autoplay muted loop poster={{ .placeholderURL }} id="bgvideo" class="bg-cover vh-100 w-100 fit-cover">
+    <source src={{ .videoURL }} type="video/mp4">
+  </video>
 
   <section class="top-1 absolute center pa3 ma6-l ma5-t black br2 bg-white-60 ml2 nt3-m w-100-m">
     <div class="">

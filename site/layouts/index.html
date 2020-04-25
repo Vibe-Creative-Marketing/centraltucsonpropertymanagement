@@ -1,9 +1,5 @@
 {{ define "main" }}
 
-{{ partial "jumbotron-home" (dict "imagetiny" .Params.imagetiny "imageS" .Params.images "imageM" .Params.imagem "imageL" .Params.imagel "webpS" .Params.webps "webpM" .Params.webpm "webpL" .Params.webpl "title" .Title "titlelarge" .Params.titlelarge "subtitle" .Params.subtitle "titlesmall" .Params.titlesmall) }}
-
-{{ partial "home-service" .Params }}
-
-{{ partial "yelp-review" .Params }}
+{{ partial "jumbotron-home" (dict "videoURL" .Params.videoURL "placeholderURL" .Params.placeholderURL "imageS" .Params.images "imageM" .Params.imagem "imageL" .Params.imagel "webpS" .Params.webps "webpM" .Params.webpm "webpL" .Params.webpl "title" .Title "titlelarge" .Params.titlelarge "subtitle" .Params.subtitle "titlesmall" .Params.titlesmall) }}
 
 {{ end }}
