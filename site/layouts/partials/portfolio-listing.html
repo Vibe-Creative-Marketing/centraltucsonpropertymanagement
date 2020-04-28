@@ -1,0 +1,24 @@
+<main>
+    <section class="ph4">
+        <h2>
+            {{ .heading }}
+        </h2>
+        <p>
+            {{ .subheading }}
+        </p>
+        <div class="bg-green w4 w-25-l pt1"></div>
+    </section>
+   
+    <section class="flex-ns ph4">
+        {{ range .property }}
+        <div class="pa3 w-50-l">
+            <h3>
+                {{ .name }}
+            </h3>
+            <p>
+                {{ .address }}
+            </p>
+        </div>
+        {{ end }}
+    </section>
+</main>
