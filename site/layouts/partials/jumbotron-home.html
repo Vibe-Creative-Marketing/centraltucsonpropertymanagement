@@ -1,28 +1,30 @@
 <header class="vh-100 relative" role="banner">
 
   <video playsinline autoplay muted loop poster={{ .placeholderURL }} id="bgvideo" class="bg-cover vh-100 w-100 fit-cover">
+    <source src="{{ .webmURL }}" type="video/webm">
     <source src={{ .videoURL }} type="video/mp4">
   </video>
 
-  <section class="top-1 absolute center pa3 ma6-l ma5-t black br2 bg-white-60 ml2 nt3-m w-100-m">
-    <div class="">
+  <section class="top-0 absolute bg-white-40 vh-100 w-100 flex items-center justify-center">
+    <div>
+
       <h1 class="f2 f1-l fw9 lh-title">
         {{ .titlelarge | safeHTML }}
       </h1>
-    </div>
+    
 
-    <div class="f3 f2-l fw5 lh-title pb3">
-      {{ if .subtitle }}
-      <p>
-        {{ .subtitle | safeHTML }}
-      </p>
-      {{ end }}
-    </div>
+      <div class="f3 f2-l fw5 lh-title pb3">
+        {{ if .subtitle }}
+        <p>
+          {{ .subtitle | safeHTML }}
+        </p>
+        {{ end }}
+      </div>
 
-    <div class="mw5 mw7-ns">
-      <a class="w5 f4 dib link grow tc bg-blue white ba b--blue pa3 b br1 mr4-l mt3 mt0-l" href="tel:(520) 276-9422">(520) 276-9422</a>
-      <a class="w5 f4 dib link grow tc bg-blue white ba b--blue pa3 b br1 mt3 mt0-l" href="/service-cost">Get a Free Quote</a>
+      <div class="mw5 mw7-ns">
+        <a class="w5 f4 dib link grow tc bg-blue white ba b--blue pa3 b br1 mr4-l mt3 mt0-l" href="{{ .link1 }}">{{ .button1 }}</a>
+        <a class="w5 f4 dib link grow tc bg-blue white ba b--blue pa3 b br1 mt3 mt0-l" href="{{ .link2 }}">{{ .button2 }}</a>
+      </div>
     </div>
-
   </section>
 </header>
