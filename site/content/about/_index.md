@@ -4,17 +4,15 @@ titlelarge: "Your Local Service Team"
 subtitle: "Home services from those you can trust!"
 imageS: https://vibecdn.azureedge.net/ctpm/about-us-700.jpg
 imageM: https://vibecdn.azureedge.net/ctpm/about-us-1000.jpg
-imageL: https://vibecdn.azureedge.net/ctpm/about-us-2000.jpg
 webpS: https://vibecdn.azureedge.net/ctpm/about-us-700.webp
 webpM: https://vibecdn.azureedge.net/ctpm/about-us-1000.webp
-webpL: https://vibecdn.azureedge.net/ctpm/about-us-2000.webp
 alt: "City of Tucson AZ"
 heading: "Meet Our Team"
 description: "Central Tucson Property Management is a local business, family owned and operated. Our team grew up here in Tucson and absolutely loves the city and the people. It’s because of our Tucson roots that 10% of all net revenue goes to our foundation – Central Tucson Gives Back – which focuses on child and family non-profit organizations in the Arizona area. We also have multiple rental units, managed by Central Tucson Property Management.<br><br>We hope you will put your trust in us to deliver your home services needs.<br><br>Warmest Aloha,<br>The Families of Central Tucson Property Management"
 subheading: 
 about:
   - name: "Austin Metzger"
-    position: "Partner"
+    position:
     text: >
       Hi, I’m Austin! I went to High School at Mountain View and graduated from the University of Arizona. I currently live in Tucson with my wife and 4 kids and work as a Branch Manager at Wells Fargo.
       On the weekends, I love hunting, BJJ, and even started my own gym, Marana Martial Arts. Please come check us out if you have a chance.
@@ -23,23 +21,37 @@ about:
     webpS: https://vibecdn.azureedge.net/ctpm/austin-metzger-500.webp
     alt: "Austin Metzger"
   - name: "Bennie Brown"
-    position: "Partner"
+    position:
     text: >
       Hi, I’m Bennie, a partner with ctpm. I grew up in Tucson, went to Mountain View High School, and graduated from the University of Arizona. I am a CPA with ASARCO and am married with 2 kids.
       I love working out and figuring out how to save money!
       We are here to help you in any way we can
-    imageS: https://vibecdn.azureedge.net/ctpm/bennie.crop.jpg
-    webpS: https://vibecdn.azureedge.net/ctpm/bennie.webp
+    imageS: https://vibecdn.azureedge.net/ctpm/bennie-brown-500.jpg
+    webpS: https://vibecdn.azureedge.net/ctpm/bennie-brown-500.webp
     alt: "Bennie Brown"
   - name: "Kainoa Akina"
-    position: "Partner"
+    position:
     text: >
       Hi, my name is Kainoa, and I grew up in Tucson. I went to Mountain View High School, then went on to graduate from the University of Hawaii. I have a wife, 2 kids, and a dog. While I currently live in Hawaii, I spend a lot of time in Tucson and hope to have more time here.
       I love working out and going to the beach.
       Thank you very much for your interest in us. We very much hope to work with you soon. Much aloha!
-    imageS: https://vibecdn.azureedge.net/ctpm/kai.crop.jpg
-    webpS: https://vibecdn.azureedge.net/ctpm/kai.webp
+    imageS: https://vibecdn.azureedge.net/ctpm/kainoa-akina-500.jpg
+    webpS: https://vibecdn.azureedge.net/ctpm/kainoa-akina-500.webp
     alt: "Kainoa Akina"
+  - name: Tim Long
+    position:
+    text: >
+      Hi, my name is Tim Long, and I grew up in San Diego, California. I moved to Tucson a couple of years ago and love it out here. I have over 20 years of experience as an electrician, mason, carpenter, and handyman. I love hunting, shooting, and off-roading in my spare time. I very much look forward to working with you!
+    imageS: https://vibecdn.azureedge.net/ctpm/tim-500.jpg
+    webpS: https://vibecdn.azureedge.net/ctpm/tim-500.webp
+    alt: Tim Long
+  - name: Dianna Brady
+    position:
+    text: >
+      Hi, my name is Dianna Brady, and I grew up in San Diego, California. I have over 10 years of experience as a Service Manager for multiple car dealerships in California. I moved to Tucson a couple of years ago and just love it! Some of my hobbies are: fishing, camping, and antiquing. We look forward to working with you!
+    imageS: https://vibecdn.azureedge.net/ctpm/dianna-500.jpeg
+    webpS: https://vibecdn.azureedge.net/ctpm/dianna-500.webp
+    alt: Dianna Brady
 values: 
     title: "Your Local Service Team"
     subtitle: "Our Core Values"
