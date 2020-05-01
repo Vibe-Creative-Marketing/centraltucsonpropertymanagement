@@ -2,9 +2,9 @@
 title: Portfolio
 subtitle: We are many
 description:
-imageM: https://vibecdn.azureedge.net/ctpm/about-us-700.jpg
+imageM: https://vibecdn.azureedge.net/ctpm/map-min.jpg
 imageL:
-webpM: https://vibecdn.azureedge.net/ctpm/about-us-700.webp
+webpM: https://vibecdn.azureedge.net/ctpm/map-min.webp
 webpL:
 heading: These are our properties
 subheading: All these homes ar e belong to us
