@@ -1,0 +1,34 @@
+<main class="cf ph5 mw10 center pt4">
+        <h1 class="f1 mw6">
+            {{ .heading | safeHTML }}
+        </h1>
+
+    <div class="bg-green w4 w-25-l pt1 mb4"></div>
+
+        {{ range .property }}
+    
+    <div class="w-100 w-50-l vh-30-l fl pb4 pb0-l">
+        <div class="mw7-l">
+            <h3>
+                {{ .name }}
+            </h3>
+            <p class="">
+                {{ .description }}
+            </p>
+       
+            <ul class="pa0 list">
+                <li class="flex items-center mb2">
+                    <picture class="mr3">
+                        <source srcset="https://vibecdn.azureedge.net/ctpm/parking-icon-100.webp 100w" type="image/webp">
+                        <source srcset="https://vibecdn.azureedge.net/ctpm/parking-icon-100.png 100w" type="image/png">
+                        <img src="https://vibecdn.azureedge.net/ctpm/parking-icon-100.png" alt="address" class="w2 mr3"> 
+                    </picture>
+                    <p class="b">
+                        Total Parking Stalls: {{ .parking }}
+                    </p>
+                </li>
+        </div>
+            </ul>
+    </div>   
+        {{ end }}
+</main>

@@ -1,7 +1,7 @@
 ---
-title: "Your Local Service Team"
-titlelarge: "Your Local Service Team"
-subtitle: "Home services from those you can trust!"
+title: "Real Estate Management"
+titlelarge: "Real Estate Management"
+subtitle: "Real Estate Management you can trust!"
 imageS: https://vibecdn.azureedge.net/ctpm/about-us-700.jpg
 imageM: https://vibecdn.azureedge.net/ctpm/about-us-1000.jpg
 webpS: https://vibecdn.azureedge.net/ctpm/about-us-700.webp
@@ -23,9 +23,9 @@ about:
   - name: "Bennie Brown"
     position:
     text: >
-      Hi, I’m Bennie, a partner with ctpm. I grew up in Tucson, went to Mountain View High School, and graduated from the University of Arizona. I am a CPA with ASARCO and am married with 2 kids.
+      Hi, I’m Bennie, a partner with CTPM. I grew up in Tucson, went to Mountain View High School, and graduated from the University of Arizona. I am an auditing manager with ASARCO and am married with 2 kids.
       I love working out and figuring out how to save money!
-      We are here to help you in any way we can
+      We are here to help you in any way we can.
     imageS: https://vibecdn.azureedge.net/ctpm/bennie-brown-500.jpg
     webpS: https://vibecdn.azureedge.net/ctpm/bennie-brown-500.webp
     alt: "Bennie Brown"
@@ -53,7 +53,7 @@ about:
     webpS: https://vibecdn.azureedge.net/ctpm/dianna-500.webp
     alt: Dianna Brady
 values: 
-    title: "Your Local Service Team"
+    title: "Real Estate Management"
     subtitle: "Our Core Values"
     text: "<li>Treat people the way we would like to be treated</li><li>Give 100% effort and take great pride in our work</li><li>Do business the right way: be honest, be professional, and get the job done</li><li>Be a good listener and a good communicator</li><li> Make someone smile, every day</li>"
     imageS: https://vibecdn.azureedge.net/ctpm/core-values-500.jpg
@@ -63,22 +63,22 @@ values:
     alt: "Core Values"
 list:
   - title: "Great Service"
-    text: "While our focus is on home services, our top priority is our customer service. Experience safe and worry-free local services and residential repairs."
+    text: "While our primary focus is managing real estate rentals and parking spaces, our top priority is customer satisfaction, personalized service, and understanding all of your specific needs."
     imageS: https://vibecdn.azureedge.net/ctpm/great-service-icon-400.png
     webpS: https://vibecdn.azureedge.net/ctpm/great-service-icon-400.webp
     alt: "Great Service Icon"
   - title: "High Standards"
-    text: "We aren't here to meet your expectations, but to exceed them. Every home service project we complete is done above the industry standard."
+    text: "We are here to exceed your expectations when it comes to property management, providing quality rentals and affordable parking spaces in the Central Tucson area."
     imageS: https://vibecdn.azureedge.net/ctpm/high-standards-icon-400.png
     webpS: https://vibecdn.azureedge.net/ctpm/high-standards-icon-400.webp
     alt: "High Standards Icon"
   - title: "Professional Team"
-    text: "Our local services team consists of the most trusted, experienced, and reliable workers in the home service industry to give you the professional service you deserve."
+    text: "Our trusted team of professionals has many years of experience in real estate property management and will provide you with the exceptional service you deserve."
     imageS: https://vibecdn.azureedge.net/ctpm/professional-team-icon-400.png
     webpS: https://vibecdn.azureedge.net/ctpm/professional-team-icon-400.webp
     alt: "Professional Team Icon"
   - title: "Creative Solutions"
-    text: "There is no problem we can't solve. With years of experience, our expert team allows you a worry-free home service experience."
+    text: "Every problem has a solution. Our team will give you a worry-free real estate management experience and find you the best fit for your needs."
     imageS: https://vibecdn.azureedge.net/ctpm/creative-solutions-icon-400.png
     webpS: https://vibecdn.azureedge.net/ctpm/creative-solutions-icon-400.webp
     alt: "Creative Solutions Icon"

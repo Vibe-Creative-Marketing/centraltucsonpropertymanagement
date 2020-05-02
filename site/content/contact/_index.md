@@ -1,12 +1,12 @@
 ---
 title: "Contact"
-heading: "Need a quote?"
-text: " If you are looking for a reasonable service cost in Tucson, backed by a team of knowledgeable professionals that will do your home service job right the first time, you have come to the right place."
+heading: "Get in touch with us."
+text: "Interested in our property management services, rental units, or parking spaces? Send us a message below. Our knowledgeable team members are looking forward to hearing from you!"
 formheading: "Contact us for a Free Quote"
-imageS: https://vibecdn.azureedge.net/ctpm/contact-500.jpg
-imageM: https://vibecdn.azureedge.net/ctpm/contact-1000.jpg
-webpS: https://vibecdn.azureedge.net/ctpm/contact-500.webp
-webpM:  https://vibecdn.azureedge.net/ctpm/contact-1000.webp
+imageS: https://vibecdn.azureedge.net/ctpm/contact-us-700.jpg
+imageM: https://vibecdn.azureedge.net/ctpm/contact-us-1000.jpg
+webpS: https://vibecdn.azureedge.net/ctpm/contact-us-700.webp
+webpM:  https://vibecdn.azureedge.net/ctpm/contact-us-1000.webp
 alt: "Tucson Sunset"
 infoheading: "Central Tucson Office"
 address: "1024 N Euclid Ave. Tucson, AZ 85719"
