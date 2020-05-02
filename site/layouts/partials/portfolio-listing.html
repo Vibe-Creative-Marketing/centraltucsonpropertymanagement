@@ -1,16 +1,14 @@
-<main class="cf ph4 mw10 center pt4">
-        <h2>
-            {{ .heading }}
-        </h2>
-        <p>
-            {{ .subheading }}
-        </p>
-        <div class="bg-green w4 w-25-l pt1 mb4"></div>
+<main class="cf ph5 mw10 center pt4">
+        <h1 class="f1 mw6">
+            {{ .heading | safeHTML }}
+        </h1>
 
-    <div class="">
+    <div class="bg-green w4 w-25-l pt1 mb4"></div>
+
         {{ range .property }}
     
-        <div class="w-100 w-50-l vh-30-l fl pb4 pb0-l">
+    <div class="w-100 w-50-l vh-40-l fl pb4 pb0-l">
+        <div class="mw7-l">
             <h3>
                 {{ .name }}
             </h3>
@@ -39,8 +37,8 @@
                         Total Parking Stalls: {{ .parking }}
                     </p>
                 </li>
+        </div>
             </ul>
-        </div>   
+    </div>   
         {{ end }}
-    </div> 
 </main>
