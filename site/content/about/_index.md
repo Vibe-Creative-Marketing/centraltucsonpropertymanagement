@@ -8,7 +8,7 @@ webpS: https://vibecdn.azureedge.net/ctpm/about-us-700.webp
 webpM: https://vibecdn.azureedge.net/ctpm/about-us-1000.webp
 alt: "City of Tucson AZ"
 heading: "Meet Our Team"
-description: "Central Tucson Property Management is a local business, family owned and operated. Our team grew up here in Tucson and absolutely loves the city and the people. It’s because of our Tucson roots that 10% of all net revenue goes to our foundation – Central Tucson Gives Back – which focuses on child and family non-profit organizations in the Arizona area. We also have multiple rental units, managed by Central Tucson Property Management.<br><br>We hope you will put your trust in us to deliver your home services needs.<br><br>Warmest Aloha,"
+description: 'Central Tucson Property Management is a local business, family owned and operated. Our team grew up here in Tucson and absolutely loves the city and the people. It’s because of our Tucson roots that 10% of all net revenue goes to our foundation – Central Tucson Gives Back – which focuses on child and family non-profit organizations in the Arizona area. We also offer electrical and other home services through <a href="https://centraltucsonhomeservices.com/" target="_bank" class="link dim">Central Tucson Home Services</a>.<br><br>We hope you will put your trust in us to deliver your home services needs.<br><br>Warmest Aloha,'
 signature: "The Families of Central Tucson Property Management"
 subheading: 
 about:
