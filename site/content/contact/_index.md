@@ -15,7 +15,7 @@ addresswebp: https://vibecdn.azureedge.net/ctpm/address-icon-100.webp
 phone: "(520) 276-9422"
 phonepng: https://vibecdn.azureedge.net/ctpm/phone-icon-100.png
 phonewebp: https://vibecdn.azureedge.net/ctpm/phone-icon-100.webp
-email: "centraltucsonhs@gmail.com"
+email: "centraltucsonpm@gmail.com"
 emailpng: https://vibecdn.azureedge.net/ctpm/envelope-icon-100.png
 emailwebp: https://vibecdn.azureedge.net/ctpm/envelope-icon-100.webp
 hours: "Mon - Sat | 9:00am - 5:00pm"
