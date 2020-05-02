@@ -6,14 +6,14 @@
   </video>
 
   <section class="top-0 absolute bg-white-40 vh-100 w-100 flex items-center justify-center">
-    <div class="mw7">
+    <div class="mw7 br3 ma3 pa2 bg-white-60">
 
-      <h1 class="f2 f1-l fw9 lh-title">
+      <h1 class="f2 f1-l fw9 lh-title ma0">
         {{ .titlelarge | safeHTML }}
       </h1>
     
 
-      <div class="f3 f2-l fw5 lh-title pb3">
+      <div class="f3 fw5 lh-title mb3">
         {{ if .subtitle }}
         <p>
           {{ .subtitle | safeHTML }}
@@ -22,7 +22,7 @@
       </div>
 
       <div class="mw5 mw7-ns">
-        <a class="w5 f4 dib link grow tc bg-blue white ba b--blue pa3 b br1 mr4-l mt3 mt0-l" href="{{ .link1 }}">{{ .button1 }}</a>
+        <a class="w5 f4 dib link grow tc bg-blue white ba b--blue pa3 b br1 mr4-ns mt3 mt0-l" href="{{ .link1 }}">{{ .button1 }}</a>
         <a class="w5 f4 dib link grow tc bg-blue white ba b--blue pa3 b br1 mt3 mt0-l" href="{{ .link2 }}">{{ .button2 }}</a>
       </div>
     </div>
