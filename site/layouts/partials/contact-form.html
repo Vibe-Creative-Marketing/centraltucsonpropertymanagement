@@ -2,7 +2,7 @@
 
 
 <!-- Contact -->
-<div class="w-100 w-50-l vh-75-l fl flex-l items-center">
+<div class="w-100 w-50-l fl flex-l items-center">
   <div class="center pa3 mw7">
   <h2 class="f2 b lh-title black">{{ .heading }}</h4>
   <p class="f4 lh-copy mb4 pb5 black">{{ .text }}</p> 
@@ -46,7 +46,7 @@
 <picture class="w-100 w-50-l vh-75-lfl">
   <source srcset="{{ .webpS }} 700w, {{ .webpM }} 1000w" type="image/webp">
   <source srcset="{{ .imageS }} 700w, {{ .imageM }} 1000w" type="image/jpeg">
-  <img src="{{ .imageM }}" alt="{{ .alt }}" class="vh-75-l w-100 fit-cover" loading="lazy">
+  <img src="{{ .imageM }}" alt="{{ .alt }}" class="vh-75 w-100 fit-cover" loading="lazy">
 </picture>
 
 </section>
