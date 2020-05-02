@@ -1,24 +1,46 @@
-<main>
-    <section class="ph4">
+<main class="cf ph4 mw10 center pt4">
         <h2>
             {{ .heading }}
         </h2>
         <p>
             {{ .subheading }}
         </p>
-        <div class="bg-green w4 w-25-l pt1"></div>
-    </section>
-   
-    <section class="flex-ns ph4">
+        <div class="bg-green w4 w-25-l pt1 mb4"></div>
+
+    <div class="">
         {{ range .property }}
-        <div class="pa3 w-50-l">
+    
+        <div class="w-100 w-50-l vh-30-l fl pb4 pb0-l">
             <h3>
                 {{ .name }}
             </h3>
-            <p>
-                {{ .address }}
+            <p class="">
+                {{ .description }}
             </p>
-        </div>
+       
+            <ul class="pa0 list">
+                <li class="flex items-center mb2">
+                    <picture class="mr3">
+                        <source srcset="https://vibecdn.azureedge.net/ctpm/address-icon-100.webp 100w" type="image/webp">
+                        <source srcset="https://vibecdn.azureedge.net/ctpm/address-icon-100.png 100w" type="image/png">
+                        <img src="https://vibecdn.azureedge.net/ctpm/address-icon-100.png" alt="address" class="w2 mr3"> 
+                    </picture>
+                    <p class="b">
+                       Total Units: {{ .units }}
+                    </p>
+                </li>
+                <li class="flex items-center mb2">
+                    <picture class="mr3">
+                        <source srcset="https://vibecdn.azureedge.net/ctpm/parking-icon-100.webp 100w" type="image/webp">
+                        <source srcset="https://vibecdn.azureedge.net/ctpm/parking-icon-100.png 100w" type="image/png">
+                        <img src="https://vibecdn.azureedge.net/ctpm/parking-icon-100.png" alt="address" class="w2 mr3"> 
+                    </picture>
+                    <p class="b">
+                        Total Parking Stalls: {{ .parking }}
+                    </p>
+                </li>
+            </ul>
+        </div>   
         {{ end }}
-    </section>
+    </div> 
 </main>
