@@ -2,7 +2,7 @@
 title: "Contact"
 heading: "Get in touch with us."
 text: "Interested in our property management services, rental units, or parking spaces? Send us a message below. Our knowledgeable team members are looking forward to hearing from you!"
-formheading: "Contact us for a Free Quote"
+formheading: "Questions? Contact us."
 imageS: https://vibecdn.azureedge.net/ctpm/contact-us-700.jpg
 imageM: https://vibecdn.azureedge.net/ctpm/contact-us-1000.jpg
 webpS: https://vibecdn.azureedge.net/ctpm/contact-us-700.webp
