@@ -6,7 +6,8 @@ imageM: https://vibecdn.azureedge.net/ctpm/CTPR-map.jpg
 imageL:
 webpM: https://vibecdn.azureedge.net/ctpm/CTPR-map.webp
 webpL:
-heading: Learn More About Our Parking Rentals
+heading: Our Properties With Parking Rentals
+heading2: Learn More About Parking Rentals
 subheading:
 property:
     - name: N Santa Rita Avenue
