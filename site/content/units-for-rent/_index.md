@@ -3,6 +3,8 @@ title: Rental Properties
 subtitle: We have rental units throughout Central Tucson, near the University of Arizona. See available units below or <a class="link dim" href="/contact">contact us</a> with questions or to apply.
 imageM: https://vibecdn.azureedge.net/ctpm/about-us-1000.jpg
 webpM: https://vibecdn.azureedge.net/ctpm/about-us-1000.webp
+imageL: https://vibecdn.azureedge.net/ctpm/about-us-2000.jpg
+webpL: https://vibecdn.azureedge.net/ctpm/about-us-2000.webp
 property:
     - name: 836 N. 6th Avenue
       description: Located 5 blocks from 4th Avenue and the University of Arizona. Less than a 5-minute drive to Banner Medical and Downtown. Unit comes with 2 beds and 2 full baths, 2 parking stalls, central AC, hardwood floors, washer/dryer unit onsite, and is pet friendly. Landlord also rents out parking stalls on the property as well. Tenant pays for all utilities. There will be an additional $25 charge for water, trash, and sewer. 
