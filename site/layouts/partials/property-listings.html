@@ -1,0 +1,37 @@
+<main class="cf ph3 ph5-ns mw10 center pt4">
+    <h1 class="f1 mw6">
+        {{ .heading | safeHTML }}
+    </h1>
+
+<div class="bg-green w4 w-25-l pt1 mb4"></div>
+
+    {{ range .property }}
+
+<div class="w-100 w-50-l vh-40-l fl pb4 pb0-l">
+    <div class="mw7-l mr4">
+        <h3>
+            {{ .name }}
+        </h3>
+        <p class="">
+            {{ .description }}
+        </p>
+   
+        <ul class="pa0 list">
+            <li class="flex items-center mb4">
+                <picture class="mr3">
+                    <source srcset="https://vibecdn.azureedge.net/ctpm/address-icon-100.webp 100w" type="image/webp">
+                    <source srcset="https://vibecdn.azureedge.net/ctpm/address-icon-100.png 100w" type="image/png">
+                    <img src="https://vibecdn.azureedge.net/ctpm/address-icon-100.png" alt="address" class="w2 mr3"> 
+                </picture>
+                <p class="b">
+                   Unit #: {{ .units }}
+                </p>
+            </li>
+            <li class="pb3">
+				<a href="{{ .URL }}" id="contact-link" class="w4 b di f4 link dim tc v-mid bg-red white ba b--red pa2 br1" target="_blank">Learn More</a>
+			</li>  
+    </div>
+        </ul>
+</div>   
+    {{ end }}
+</main>
