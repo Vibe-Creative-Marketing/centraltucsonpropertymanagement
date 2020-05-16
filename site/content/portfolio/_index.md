@@ -53,4 +53,13 @@ property:
       description: East 8th Street is located just three blocks South of the University of Arizona. This gracious property contains one 3 bed/2 bath and one 2 bed/1 bath unit. In-unit air conditioner and washer/dryer are included property wide.
       units: 2
       parking: 5
+    - name: N. 6th Avenue
+      description: North 6th Avenue is located eleven blocks West of the University of Arizona. This delightful property contains two 2 bed/2 bath units. It also contains one studio unit all with access to communal washer/dryer. In-unit air conditioner is included property wide.
+      units: 3
+      parking: 9
+    - name: E. University Blvd
+      description: East University is located ten blocks West of the University of Arizona. This pleasant property contains three 1 bed/1 bath units. In-unit air conditioner is included property wide.
+      units: 3
+      parking: none available
+      
 ---
