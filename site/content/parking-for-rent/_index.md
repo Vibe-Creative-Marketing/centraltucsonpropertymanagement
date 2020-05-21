@@ -1,11 +1,11 @@
 ---
 title: Tucson Parking for Rent
 subtitle: Conveniently located throughout Central Tucson, the <a class="link dim" href="/portfolio">properties</a> below offer rental parking spaces. For availability and pricing, <a class="link dim" href="/contact">contact us today</a>.
-mobile: https://vibecdn.azureedge.net/ctpm/CTPR-mobile.jpg
-imageM: https://vibecdn.azureedge.net/ctpm/CTPR-map.jpg
-imageL: https://vibecdn.azureedge.net/ctpm/CTPR-map.jpg
-webpM: https://vibecdn.azureedge.net/ctpm/CTPR-map.webp
-webpL: https://vibecdn.azureedge.net/ctpm/CTPR-map.webp
+mobile: https://vibecdn.azureedge.net/ctpm/CTPR_mapmobile52020.jpg
+imageM: https://vibecdn.azureedge.net/ctpm/CTPR_map_5212020.jpg
+imageL: https://vibecdn.azureedge.net/ctpm/CTPR_map_5212020.jpg
+webpM: https://vibecdn.azureedge.net/ctpm/CTPR_map52120.webp
+webpL: https://vibecdn.azureedge.net/ctpm/CTPR_map52120.webp
 heading: Our Properties With Parking Rentals
 heading2: Learn More About Parking Rentals
 subheading:
@@ -31,4 +31,7 @@ property:
     - name: E Mabel Street
       description: East Mabel Street is located just three blocks West from Banner- University Medical Center Tucson. 
       parking: 2
+    - name: N 6th Avenue
+      description: North 6th Avenue is located eleven blocks West from the University of Arizona.
+      parking: 10
 ---
