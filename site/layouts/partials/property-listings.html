@@ -2,11 +2,11 @@
     <h1 class="f1 mw6">
         {{ .heading | safeHTML }}
     </h1>
-
+  
 <div class="bg-green w4 w-25-l pt1 mb4"></div>
-
-    {{ range .property }}
-
+    
+{{ range .property }}
+    
 <div class="w-100 w-50-l vh-40-l fl pb4 pb0-l mb6">
     <div class="mw7-l mr4">
         <h3>
@@ -27,11 +27,17 @@
                    Unit #: {{ .units }}
                 </p>
             </li>
-            <li class="pb3">
-				<a href="{{ .URL }}" id="contact-link" class="w4 b di f4 link dim tc v-mid bg-red white ba b--red pa2 br1" target="_blank">Learn More</a>
+            <li class="pb4">
+				<a href="{{ .URL1 }}" id="contact-link" class="w4 b di f4 link dim tc v-mid bg-red white ba b--red pa2 br1" target="_blank">Learn More</a>
             </li>  
+            {{ with .URL2 }}
+            <li class="pb3">
+				<a href="{{ . }}" id="contact-link" class="w4 b di f4 link dim tc v-mid bg-red white ba b--red pa2 br1" target="_blank">Video Tour</a>
+            </li> 
+           {{ end }}
+            
     </div>
         </ul>
-</div>   
+</div>  
     {{ end }}
 </main>
