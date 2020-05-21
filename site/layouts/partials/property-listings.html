@@ -17,6 +17,7 @@
         </p>
    
         <ul class="pa0 list">
+            {{ with .units }}
             <li class="flex items-center mb4">
                 <picture class="mr3">
                     <source srcset="https://vibecdn.azureedge.net/ctpm/address-icon-100.webp 100w" type="image/webp">
@@ -24,10 +25,11 @@
                     <img src="https://vibecdn.azureedge.net/ctpm/address-icon-100.png" alt="address" class="w2 mr3"> 
                 </picture>
                 <p class="b">
-                   Unit #: {{ .units }}
+                   Unit #: {{ . }}
                 </p>
             </li>
-            <li class="pb4">
+            {{ end }}
+            <li class="pb4 mt4">
 				<a href="{{ .URL1 }}" id="contact-link" class="w4 b di f4 link dim tc v-mid bg-red white ba b--red pa2 br1" target="_blank">Learn More</a>
             </li>  
             {{ with .URL2 }}
