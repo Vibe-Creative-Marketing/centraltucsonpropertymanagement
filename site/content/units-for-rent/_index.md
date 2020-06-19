@@ -21,10 +21,6 @@ property:
       units: "3"
       URL1: https://tucson.craigslist.org/apa/d/tucson-oversize-studio-2-blocks-from-of/7127798598.html
       URL2: https://youtu.be/SMPK3STLyAI
-    - name: 701 E. 6th Street
-      description: Available starting July 1, 2020, this property is located across the street from the University of Arizona and is 3 blocks from 4th Ave. and downtown. It's also less than a 5-minute drive to Banner Medical. This is a 2 bed/1 bath unit that comes with hardwood floors, central A/C, washer/dryer and 2 street parking permits paid for by the landlord. The parking onsite is rented out. Landlord pays for water, sewer and trash. Tenant pays for all other utilities. 
-      URL1: https://tucson.craigslist.org/apa/d/tucson-2-bed-1-bath-house-acros-street/7127800788.html
-      URL2: https://youtu.be/4SdOBj9L1WQ
 
       
 ---
