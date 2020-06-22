@@ -5,12 +5,9 @@ imageM: https://vibecdn.azureedge.net/ctpm/about-us-1000.jpg
 webpM: https://vibecdn.azureedge.net/ctpm/about-us-1000.webp
 imageL: https://vibecdn.azureedge.net/ctpm/about-us-2000.jpg
 webpL: https://vibecdn.azureedge.net/ctpm/about-us-2000.webp
-Heading: Available Units
+Heading: We do not have any available units at this time. Please check back later!
 property:
-    - name: 1024 N. Euclid Avenue
-      description: This house is 2 blocks from University Blvd., a 3-minute walk to CVS on University. It is less than a 5-minute car ride to 4th Ave., downtown, and Banner Medical. This is a 2 bed/1 bath unit that comes with a study room along with upgraded kitchen, bathroom and interior. The unit includes 2 onsite parking stalls, washer/dryer and central AC. There is an additional $25 charge for water, sewer and trash. Landlord also rents out parking spaces on this property.
-      units: "2"
-      URL1: https://tucson.craigslist.org/apa/d/tucson-2-bed-1-bath-one-block-from-of/7129360749.html
+    
 
 ---
 
