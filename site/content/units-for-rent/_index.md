@@ -12,6 +12,11 @@ property:
       units: 5
       URL1: https://tucson.craigslist.org/apa/d/tucson-2-bed-1-bath-utilities-included/7153221758.html
       URL2: https://www.youtube.com/watch?v=Hh8qk7Vpchw&feature=youtu.be
+    - name: 725 E. 5th Street
+      description: Located 1 block from the University of Arizona. This 1 bed 1 bath unit comes with a parking stall, window AC units, and coin laundry on-site (cold wash only). It is a 5-minute walk to 4th ave and downtown, and a 5-minute drive to Banner Medical. 
+      units: 1
+      URL1: https://tucson.craigslist.org/apa/d/tucson-1-bed-1-bath-1-block-from-of/7157244287.html
+      URL2: https://youtu.be/mfNSAxtGIwE
     
 
 ---
