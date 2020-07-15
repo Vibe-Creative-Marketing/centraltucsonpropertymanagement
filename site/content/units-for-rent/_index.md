@@ -5,18 +5,9 @@ imageM: https://vibecdn.azureedge.net/ctpm/about-us-1000.jpg
 webpM: https://vibecdn.azureedge.net/ctpm/about-us-1000.webp
 imageL: https://vibecdn.azureedge.net/ctpm/about-us-2000.jpg
 webpL: https://vibecdn.azureedge.net/ctpm/about-us-2000.webp
-Heading: Available Units
+Heading: We do not currently have any available units. Please check back later!
 property:
-    - name: 725 E. 5th Street
-      description: All utilities included! Small 2 Bed 1 Bath unit located just 1 block from the U of A. This unit is less than a 5-minute walk to 4th Ave and downtown, and a 5-minute drive to Banner Medical. Washer/Dryer and 1 Parking spot come with the unit.
-      units: 5
-      URL1: https://tucson.craigslist.org/apa/d/tucson-2-bed-1-bath-utilities-included/7153221758.html
-      URL2: https://www.youtube.com/watch?v=Hh8qk7Vpchw&feature=youtu.be
-    - name: 725 E. 5th Street
-      description: Located 1 block from the University of Arizona. This 1 bed 1 bath unit comes with a parking stall, window AC units, and coin laundry on-site (cold wash only). It is a 5-minute walk to 4th ave and downtown, and a 5-minute drive to Banner Medical. 
-      units: 1
-      URL1: https://tucson.craigslist.org/apa/d/tucson-1-bed-1-bath-1-block-from-of/7157244287.html
-      URL2: https://youtu.be/mfNSAxtGIwE
+
     
 
 ---
