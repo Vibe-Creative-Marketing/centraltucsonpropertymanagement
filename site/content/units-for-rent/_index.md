@@ -7,7 +7,10 @@ imageL: https://vibecdn.azureedge.net/ctpm/about-us-2000.jpg
 webpL: https://vibecdn.azureedge.net/ctpm/about-us-2000.webp
 Heading: We do not currently have any available units. Please check back later!
 property:
-
+    - name: 701 E. 6th Street
+      description: This unit is located across the street from the University of Arizona, 3 Blocks from 4th Avenue and Downtown, and less than a 5-minute drive to Banner Medical. This unit has a main bedroom and an additional den/office space that could be a bedroom. It comes with central A/C, hardwood floors, and washer/dryer unit in the backyard. The landlord pays for 2 street parking permits. Onsite parking is rented out and not available. Landlord pays for water, sewer and trash. Tenant pays for electrical, gas and all other utilities.
+      URL1: https://tucson.craigslist.org/apa/d/tucson-2bed-1-bath-1-block-from-of/7162256247.html
+      URL2: https://youtu.be/4SdOBj9L1WQ
     
 
 ---
