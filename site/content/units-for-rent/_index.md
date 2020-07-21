@@ -13,7 +13,7 @@ property:
       URL2: https://youtu.be/4SdOBj9L1WQ
     - name: 1300 E. 7th Street
       description: This unit is located 1 block from the University of Arizona and the University Rec Center. It's also 1 mile from 4th Avenue, Banner Medical and downtown. This 1 bed 1 bath casita has its own private yard, an in-unit washer/dryer, 2 split AC units and comes with 1 parking space. Landlord pays for water, sewer and trash. Tenant pays for electricity, gas and all other utilities.
-      Units: "3"
+      units: "3"
       URL1: https://tucson.craigslist.org/apa/d/tucson-1bed-1bath-1-block-from-of/7161421043.html
       URL2: https://youtu.be/MZqaP30_LuY
     
