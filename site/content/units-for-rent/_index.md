@@ -7,11 +7,10 @@ imageL: https://vibecdn.azureedge.net/ctpm/about-us-2000.jpg
 webpL: https://vibecdn.azureedge.net/ctpm/about-us-2000.webp
 Heading: Available Rental Units
 property:
-    - name: 1300 E. 7th Street
-      description: This unit is located 1 block from the University of Arizona and University Rec Center. It's also 1 mile from 4th Avenue, Banner Medical and downtown. This 1 bed 1 bath casita has its own private yard, an in-unit washer/dryer, 2 split AC units and comes with 1 parking space. Landlord pays for water, sewer and trash. Tenant pays for electricity, gas and all other utilities.
-      units: "3"
-      URL1: https://tucson.craigslist.org/apa/d/tucson-1bed-1bath-1-block-from-of/7161421043.html
-      URL2: https://youtu.be/MZqaP30_LuY
+    - name: 841 E. 8th Street
+      description: This unit is located 2 blocks from the University of Arizona, 4 blocks from 4th Ave and a 5-minute drive to Banner Medical and downtown Tucson. This 2 bed 1 bath house comes with central A/C, hardwood floors, washer dyer in unit and on-site parking. Landlord pays for water, trash and sewer. Tenant pays for electricity, gas and any other utilities. (This unit is connected to a 1 bed 1 bath unit that is separated by the laundry room. This unit does share gas and electrical with rear tenant. Each tenant is responsible for one-third of the gas and electric bill.)
+      URL1: https://tucson.craigslist.org/apa/d/tucson-2bed-1-bath-2-blocks-from-of/7164946728.html
+      URL2: https://youtu.be/XAfsvw9t4cs
     
 
 ---
