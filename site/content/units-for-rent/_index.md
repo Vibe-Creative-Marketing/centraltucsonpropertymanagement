@@ -10,7 +10,7 @@ property:
     - name: 725 East 5th Street
       description: Located 2 blocks from the University of Arizona and less than a 5-minute car ride from 4th Ave, Downtown and Banner Medical, this oversized studio has a wall A/C unit, coin laundry onsite and includes 1 on-site parking space. Landlord pays for water, sewer and trash. Tenant will pay for all other utilities. 
       units: "3"
-      URL1: tucson.craigslist.org/apa/d/tucson-overside-studio-1-block-from-of/7188041125.html
+      URL1: https://tucson.craigslist.org/apa/d/tucson-overside-studio-1-block-from-of/7188041125.html
       URL2: https://youtu.be/SMPK3STLyAI
 
     
