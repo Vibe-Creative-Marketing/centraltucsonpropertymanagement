@@ -1,11 +1,16 @@
 <header class="vh-100 relative center mw10" role="banner">
 
-  <video playsinline autoplay muted loop poster={{ .placeholderURL }} id="bgvideo" class="bg-cover vh-100 w-100 fit-cover">
+<!--  <video playsinline autoplay muted loop poster={{ .placeholderURL }} id="bgvideo" class="bg-cover vh-100 w-100 fit-cover">
     <source src="{{ .webmURL }}" type="video/webm">
     <source src={{ .videoURL }} type="video/mp4">
-  </video>
+</video> -->
 
-  <section class="top-0 absolute bg-white-40 vh-100 w-100 flex items-center justify-center">
+  <picture>
+    <source srcset="{{ .webpURL }}" type="image/webp">
+    <source srcset="{{ .gifURL }}" type="image/gif">
+    <img src="{{ .gifURL }}" alt="Tuscon Hero Image" class="vh-100 w-100 fit-cover">
+  </picture>
+  <section class="top-0 absolute vh-100 w-100 flex items-center justify-center">
     <div class="mw7 br3 ma3 pa2 bg-white-60">
 
       <h1 class="f2 f1-l fw9 lh-title ma0">
