@@ -24,7 +24,7 @@
                     <source srcset="{{ .phonepng }} 100w" type="image/png">
                     <img src="{{ .phonepng }}"  class="w2 w3-ns pa3" loading="lazy"> 
                 </picture>
-                <p class="word-break f4 f3-l lh-copy">{{ .phone}}</p>
+                <a class="word-break f4 f3-l lh-copy" href="tel: {{ .phone }}">{{ .phone}}</a>
             </div>
             <div class="center flex items-center">
                 <picture>
