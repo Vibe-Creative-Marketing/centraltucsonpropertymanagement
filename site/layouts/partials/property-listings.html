@@ -1,10 +1,15 @@
 <main class="cf ph3 ph5-ns mw10 center pt4">
     <h1 class="f1 mw6">
+        {{ if eq .haslisting true }} 
         {{ .heading | safeHTML }}
+        {{ else }}
+        {{ .nohasheading | safeHTML }}
+        {{ end }}
     </h1>
   
 <div class="bg-green w4 w-25-l pt1 mb4"></div>
-    
+
+{{ if eq .haslisting true }}
 {{ range .property }}
     
 <div class="w-100 w-50-l vh-40-l fl pb4 pb0-l mb6">
@@ -12,8 +17,8 @@
         <h3>
             {{ .name }}
         </h3>
-        <p class="">
-            {{ .description }}
+        <p class="db">
+            {{ .description | safeHTML }}
         </p>
    
         <ul class="pa0 list">
@@ -30,16 +35,19 @@
             </li>
             {{ end }}
             <li class="pb4 mt4">
-				<a href="{{ .URL1 }}" id="contact-link" class="w4 b di f4 link dim tc v-mid bg-red white ba b--red pa2 br1" target="_blank">Learn More</a>
+				<a href="{{ .URL1 }}" id="contact-link" class="mw5 b db f4 link dim tc v-mid bg-red white ba b--red pa2 br1" target="_blank">Learn More</a>
             </li>  
             {{ with .URL2 }}
             <li class="pb3">
-				<a href="{{ . }}" id="contact-link" class="w4 b di f4 link dim tc v-mid bg-red white ba b--red pa2 br1" target="_blank">Video Tour</a>
+				<a href="{{ . }}" id="contact-link" class="mw5 b db f4 link dim tc v-mid bg-red white ba b--red pa2 br1" target="_blank">Video Tour</a>
             </li> 
            {{ end }}
             
     </div>
         </ul>
 </div>  
+{{ else }}
+<div></div>
+{{ end }}
     {{ end }}
 </main>
