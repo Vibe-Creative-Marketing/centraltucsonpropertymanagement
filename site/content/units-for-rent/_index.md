@@ -5,7 +5,7 @@ imageM: https://vibecdn.azureedge.net/ctpm/about-us-1000.jpg
 webpM: https://vibecdn.azureedge.net/ctpm/about-us-1000.webp
 imageL: https://vibecdn.azureedge.net/ctpm/about-us-2000.jpg
 webpL: https://vibecdn.azureedge.net/ctpm/about-us-2000.webp
-haslisting: true
+haslisting: false
 heading: Check out our unit(s) available for rent!
 nohasheading: We do not currently have rental units available. Please check back soon!
 property: 
