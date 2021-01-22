@@ -7,10 +7,18 @@
             {{ .subtitle | safeHTML }}
         </p>
     </div>
-    <picture>
-        <source srcset="{{ .mobile }}" media="(max-width: 450px)">
-        <source srcset="{{ .webpM }} 1000w, {{ .webpL }} 2000w" type="image/webp">
-        <source srcset="{{ .imageM }} 1000w, {{ .imageL }} 2000w" type="image/jpeg"> 
-        <img src="{{ .imageM }}" alt="Portfolio Map" class="w-100 vh-40 vh-75-ns fit-cover">      
+    <picture class="db-l dn">
+        <source srcset="{{ .mobileWebp }}" media="(max-width: 450px)" type="image/webp">
+        <source srcset="{{ .mobile }}" media="(max-width: 450px)" type="image/jpeg">
+        <source srcset="{{ .webpL }} 2000w" type="image/webp">
+        <source srcset="{{ .imageL }} 2000w" type="image/jpeg"> 
+        <img src="{{ .imageL }}" alt="Portfolio Map" class="w-100 fit-cover" width="2000" height="1000"> 
+    </picture>
+    <picture class="db dn-l pa2">
+        <source srcset="{{ .mobileWebp }}" media="(max-width: 450px)" type="image/webp">
+        <source srcset="{{ .mobile }}" media="(max-width: 450px)" type="image/jpeg">
+        <source srcset="{{ .webpL }} 2000w" type="image/webp">
+        <source srcset="{{ .imageL }} 2000w" type="image/jpeg"> 
+        <img src="{{ .imageL }}" alt="Portfolio Map" class="fit-contain"> 
     </picture>
 </header>
