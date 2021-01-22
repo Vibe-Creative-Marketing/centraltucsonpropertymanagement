@@ -52,7 +52,7 @@ property:
       description: East 8th Street is located just three blocks South of the University of Arizona. This gracious property contains one 3 bed/2 bath and one 2 bed/1 bath unit. Central A/C and washer/dryer are included in both units.
       units: 2
       parking: 5
-    - name: 8th Street II
+    - name: E 8th Street II
       description: East 8th Street II is located just three blocks South of the University of Arizona. This conveniently located property contains two 1 bed/1 bath units with wall air-conditioner units.
       units: 2
       parking: 4 
