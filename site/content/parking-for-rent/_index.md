@@ -15,13 +15,13 @@ property:
       parking: 2
     - name: E 7th Street
       description: East 7th Street is located just one block South of The University of Arizona. 
-      parking: 12
+      parking: 7
     - name: N 1st Avenue
       description: North 1st Avenue is located just one block West from The University of Arizona.
       parking: 1
     - name: E 6th Street II
       description: East 6th Street II is located just two blocks West from The University of Arizona.
-      parking: 1
+      parking: 2
     - name: Hawthorne Street
       description: Hawthorne Street is located just one block East of The University of Arizona.
       parking: 6
