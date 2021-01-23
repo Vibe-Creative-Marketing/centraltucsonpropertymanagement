@@ -1,21 +1,20 @@
-<main class="cf ph3 ph5-ns mw10 center pt4">
+<main class="ph3 ph5-ns mw9 center pt4">
         <h1 class="f1 mw6">
             {{ .heading | safeHTML }}
         </h1>
 
     <div class="bg-green w4 w-25-l pt1 mb4"></div>
 
-        {{ range sort .property "name" "ascend" }}
     
-    <div class="w-100 w-50-l vh-30-l fl pb4 pb0-l">
-        <div class="mw7-l mr4">
+    <div class="flex flex-wrap justify-between pb4">
+        {{ range sort .property "name" "ascend" }}
+        <div class="mw6 pa2">
             <h3>
                 {{ .name }}
             </h3>
             <p class="">
                 {{ .description }}
             </p>
-       
             <ul class="pa0 list">
                 <li class="flex items-center mb2">
                     <picture class="mr3">
@@ -27,8 +26,8 @@
                         Total Parking Stalls: {{ .parking }}
                     </p>
                 </li>
-        </div>
             </ul>
-    </div>   
+        </div>
         {{ end }}
+    </div>   
 </main>
