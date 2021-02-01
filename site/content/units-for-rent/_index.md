@@ -11,7 +11,7 @@ nohasheading: We do not currently have rental units available. Please check back
 property: 
 - name: "725 E 5th St Unit #7"
   description: "This oversized studio has everything you need with all utilities included, AC, 1 parking spot, and on-site coin operated washer/dryer! It's located directly across the street from the University of Arizona and is less than a 5 minute car ride from 4th ave, downtown, and Banner Medical."
-  units: 1
+  units: 7
   URL1: https://tucson.craigslist.org/apa/d/tucson-large-studio-utilities-included/7260199940.html 
   URL2: https://youtu.be/FSDsUuWnZLw
 ---
