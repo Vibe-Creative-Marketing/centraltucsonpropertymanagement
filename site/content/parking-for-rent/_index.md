@@ -28,7 +28,7 @@ property:
     - name: N Euclid Avenue
       description: North Euclid Avenue is located just two blocks North West of the University of Arizona. 
       parking: 4
-      available: 4
+      available: 1
     - name: N 6th Avenue
       description: North 6th Avenue is located eleven blocks West from the University of Arizona.
       parking: 3
