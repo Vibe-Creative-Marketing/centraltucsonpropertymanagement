@@ -1,6 +1,6 @@
-<section class="w-90-l mb6 center mw10 cf">
+<section class="w-90-l mb6 center mw10 flex flex-wrap">
     {{ range .list }}
-    <div class="fl w-100 w-25-ns pa3">
+    <div class="w-100 w-50-m w-25-l pa3">
             
                 <div class="w3 w4-l center">
 					    <picture class="">
@@ -9,9 +9,9 @@
 						    <img src="{{ .imageS }}" alt="{{ .alt }}" class="fit-contain" loading="lazy">	
                         </picture>
                 </div>
-                    <div class="center word-break">
-					    <h2 class="tc f4 f3-l">{{ .title }}</h2>
-                        <p class="f5 f4-l">{{ .text }}</p>
+                    <div class="center word-break mw6">
+					    <h2 class="tc f3">{{ .title }}</h2>
+                        <p class="f3">{{ .text }}</p>
                     </div>    
             </div>    
 			{{ end }}

@@ -1,20 +1,20 @@
-<div class="cf mb6 mw10 center" role="banner">
+<div class="cf mw10 center" role="banner">
  
   <picture>
     <source srcset="{{ .webpS }} 700w, {{ .webpM }} 1000w" type="image/webp">
     <source srcset="{{ .imageS }} 700w, {{ .imageM }} 1000w" type="image/jpeg">
-    <img src="{{ .imageM }}" alt="{{ .alt }}" class="fit-cover vh-50 vh-75-ns w-100 w-50-l" loading="lazy">
+    <img src="{{ .imageM }}" alt="{{ .alt }}" class="fit-contain w-100 w-50-l" loading="lazy">
   </picture>
 
-  <div class="w-100 w-50-l fl vh-50 vh-75-ns flex items-center">
+  <div class="w-100 w-50-l fl flex items-center">
     <div class="center mb3 pl3 pr3 ml5-l">
-      <h1 class="f3 f2-l fw9 lh-title">
+      <h1 class="f2 fw9 lh-title">
         {{ .heading }}
       </h1>
-      <p class="f5 f4-l">
+      <p class="f3">
         {{ .description | safeHTML }}
       </p>
-      <p class="mt1 f5 f4-l cursive">
+      <p class="mt1 cursive">
         {{ .signature }}
       </p>
     </div>
