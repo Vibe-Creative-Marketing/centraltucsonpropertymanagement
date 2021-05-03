@@ -1,0 +1,25 @@
+<section class="w-90-l mb6 center cf mw10">
+  {{ range sort .services }}
+  {{ if .URL }}
+  <a class="dim db" target="_blank" rel="noopener" href="{{ .URL }}">
+  {{ end }}
+    <div class="fl w-50 w-25-l pa3">
+            
+    <div class="w4 center">
+	    <picture>
+		   <source srcset="{{ .png }}"	type="image/png">
+		  <img src="{{ .png }}" alt="{{ .alt }}" class="fit-contain" loading="lazy" height="400" width="400">	
+        </picture>
+      </div>
+      <div class="center word-break">
+
+	    <h2 class="tc f4 f3-l">{{ .title }}</h2>
+        <p class="f5 f4-l">{{ .text }}</p>
+      </div>    
+    </div>    
+    {{ if .URL }}
+    </a>
+    {{ end }}
+  {{ end }}
+  </div>
+</section>
