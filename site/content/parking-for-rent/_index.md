@@ -23,8 +23,8 @@ property:
       available: 1
     - name: Hawthorne Street
       description: Hawthorne Street is located just one block East of The University of Arizona.
-      parking: 4
-      available: 5
+      parking: 5
+      available: 4
     - name: N Euclid Avenue
       description: North Euclid Avenue is located just two blocks North West of the University of Arizona. 
       parking: 4
