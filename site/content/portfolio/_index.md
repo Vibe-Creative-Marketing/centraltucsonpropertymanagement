@@ -40,10 +40,6 @@ property:
       description: East 6th Street II is located just two blocks West from The University of Arizona. This pleasing property consists of one 2 bed/1 bath unit with central A/C, washer/dryer, and its own private backyard
       units: 1
       parking: 3
-    - name: Hawthorne Street
-      description: Hawthorne Street is located just one block East of The University of Arizona. This delightful property consists of one 5 bed/3 bath unit with central A/C and 2 washer/dryer units. 
-      units: 1
-      parking: 9
     - name: N Euclid Avenue
       description: North Euclid Avenue is located just two blocks North West of the University of Arizona. This charming property contains two 2 bed/1 bath units. Central A/C and washer/dryer are included property wide. 
       units: 2
