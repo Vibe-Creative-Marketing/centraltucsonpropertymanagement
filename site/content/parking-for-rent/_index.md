@@ -16,7 +16,7 @@ property:
     - name: E 7th Street
       description: East 7th Street is located just one block South of The University of Arizona. 
       parking: 8
-      available: 4
+      available: 5
     - name: E 6th Street II
       description: East 6th Street II is located just two blocks West from The University of Arizona.
       parking: 1
