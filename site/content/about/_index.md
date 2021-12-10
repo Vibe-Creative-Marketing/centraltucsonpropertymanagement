@@ -9,7 +9,7 @@ webpM: https://vibecdn.azureedge.net/ctpm/about-us-1000.webp
 alt: "City of Tucson AZ"
 heading: "Meet Our Team"
 description: 'Central Tucson Property Management is a local business, family owned and operated. Our team grew up here in Tucson and absolutely loves the city and the people. It’s because of our Tucson roots that 10% of all net revenue goes to our foundation – Central Tucson Gives Back – which focuses on child and family non-profit organizations in the Arizona area. We also offer electrical and other home services through <a href="https://centraltucsonhomeservices.com/" target="_bank" class="link dim">Central Tucson Home Services</a>.<br><br>We hope you will put your trust in us to deliver your home services needs.<br><br>Warmest Aloha,'
-signature: "The Families of Central Tucson Property Management"
+signature: "The Families of Central Tucson Companies"
 subheading: 
 about:
   - name: "Austin Metzger"
@@ -88,9 +88,6 @@ services:
     URL: https://centraltucsonfinancialservices.com/
     png: https://vibecdn.azureedge.net/ctpm/ctfs-icon-400.png
     alt: Central Tucson Financial Services
-  - title: Central Tucson Home Services
-    URL: https://centraltucsonhomeservices.com/
-    png: https://vibecdn.azureedge.net/ctpm/cths-icon-400.png
   - title: Central Tucson Gives Back
     URL: https://centraltucsongivesback.com/
     aria: Central Tucson Gives Back
