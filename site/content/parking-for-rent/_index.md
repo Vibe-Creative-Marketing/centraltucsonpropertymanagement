@@ -1,6 +1,6 @@
 ---
-title: Tucson Parking for Rent
-subtitle: Conveniently located throughout Central Tucson, the <a class="link dim" href="/portfolio">properties</a> below offer rental parking spaces. For availability and pricing, <a class="link dim" href="/contact">contact us today</a>.
+title: Monthly Parking in Tucson 
+subtitle: Central Tucson Companies offers monthly parking stalls and long-term parking at select properties for just $50 per month. With locations near the University of Arizona, Banner Medical Center, and Downtown Tucson, flexible monthly parking has never been easier.
 mobile: https://vibecdn.azureedge.net/ctpm/mobile_map.jpg
 mobileWebp: https://vibecdn.azureedge.net/ctpm/mobile_map.webp
 imageL: https://vibecdn.azureedge.net/ctpm/portfolio_map.jpg
