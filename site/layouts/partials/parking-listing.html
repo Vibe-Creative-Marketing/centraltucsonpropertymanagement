@@ -1,7 +1,7 @@
-<main class="ph3 ph5-ns mw9 center pt4">
-        <h1 class="f1 mw6">
+<section class="ph3 ph5-ns mw9 center pt4">
+        <h3 class="f3">
             {{ .heading | safeHTML }}
-        </h1>
+        </h3>
 
     <div class="bg-green w4 w-25-l pt1 mb4"></div>
 
@@ -9,9 +9,9 @@
     <div class="flex flex-wrap justify-between pb4">
         {{ range sort .property "name" "ascend" }}
         <div class="mw6 pa2">
-            <h3>
+            <h4>
                 {{ .name }}
-            </h3>
+            </h4>
             <p class="">
                 {{ .description }}
             </p>
@@ -30,4 +30,4 @@
         </div>
         {{ end }}
     </div>   
-</main>
+</section>

@@ -5,7 +5,7 @@ mobile: https://vibecdn.azureedge.net/ctpm/mobile_map.jpg
 mobileWebp: https://vibecdn.azureedge.net/ctpm/mobile_map.webp
 imageL: https://vibecdn.azureedge.net/ctpm/portfolio_map.jpg
 webpL: https://vibecdn.azureedge.net/ctpm/portfolio_map.webp
-heading: Properties With Available Parking Stalls 
+heading: Conveniently located throughout Central Tucson, the properties below offer rental parking spaces. To start renting your monthly or long-term parking stall, contact us today. 
 heading2: Learn More About Parking Rentals
 subheading:
 property:

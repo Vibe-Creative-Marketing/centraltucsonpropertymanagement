@@ -1,8 +1,9 @@
 {{ define "main" }}
-
+<main>
 {{ partial "jumbotron-portfolio" .Params }}
 
-{{partial "contact-form-parking" .Params}}
-
 {{ partial "parking-listing" .Params }}
+
+{{partial "contact-form-parking" .Params}}
+</main>
 {{ end }}
